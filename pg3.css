@@ -1,0 +1,77 @@
+img{
+    height: 8em;
+
+}
+body{
+    background: #ececec; 
+}
+
+
+#logo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    }
+    
+
+    form{
+         
+        background-image: url(https://images.unsplash.com/photo-1514416309827-bfb0cf433a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+        color: #ffffff;
+       background-size: cover;
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid black;
+        flex-direction: column;
+     }
+
+     
+
+     div{
+        padding: 2em;
+        text-align: center;
+        font-size: large;
+    }
+    #scan{
+        padding: 0;
+        margin-bottom: 1em;
+     } 
+    div>span{
+        padding: 5px 20px ;
+        text-align: center;
+        display: flex;
+        color: white;
+        background-color: #385170;
+        justify-content: center;
+        border: 1px solid black;
+    }
+
+
+    button{
+        border: 1px solid white;
+    background-color: greenyellow;
+    font-size: x-large;
+    padding: 0.3em 2em;
+    border-radius: 1rem;
+    }
+        .hide-bg{
+            mix-blend-mode: multiply;
+            filter: contrast(1);
+          }
+        
+        button:hover{
+            background-color: green;
+            font-weight: bold;
+            color: yellow;
+        }
+
+
+        input{
+            width: 20em;
+            height: 2em;
+        }
+
+        select{
+            width: 20em;
+            height: 2em;
+        }
